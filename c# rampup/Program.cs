@@ -78,11 +78,13 @@
                 else
                 {
                     for (int v = 1; v <= n; v++)
+                    {
                         for (int j = 1; j <= v; j++)
                         {
                             Console.Write(j + " ");
                         }
-                    Console.WriteLine();
+                        Console.WriteLine();
+                    }   
                 }
 
             Console.Write("Enter a positive integer: ");
@@ -115,7 +117,7 @@
                 {
                     for (int k = z; k >= 1; k--)
                     {
-                        for (int j = 1; j <= z; j++)
+                        for (int j = 1; j <= k; j++)
                         {
                             Console.Write(j + " ");
                         }
